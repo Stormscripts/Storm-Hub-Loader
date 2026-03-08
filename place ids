@@ -2,7 +2,7 @@ local place = game.PlaceId
 
 local games = {
 
-    [131623223084840] = "https://raw.githubusercontent.com/SEUNOME/StormHub/main/games/escape_tsunami.lua", -- Escape Tsunami For Brainrots
+    [131623223084840] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Escape%20Tsunami%20For%20Brainrots%20Storm%20Hub%20stormscripts", -- Escape Tsunami For Brainrots
 
     [142823291] = "https://raw.githubusercontent.com/SEUNOME/StormHub/main/games/mm2.lua", -- Murder Mystery 2
 
