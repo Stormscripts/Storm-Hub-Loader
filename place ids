@@ -14,7 +14,7 @@ local games = {
 
     [15131312477] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Ultimate%20Soccer%20Storm%20Hub%20stormscripts", -- Ultimate Soccer
 
-    [9224601490] = "" -- Fruit Battlegrounds
+    [9224601490] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Fruit%20Battlegrounds%20Storm%20Hub%20stormscripts" -- Fruit Battlegrounds
 
 }
 
