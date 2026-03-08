@@ -8,9 +8,9 @@ local games = {
 
     [3082002798] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/T-Titans%20Battlegrounds%20Storm%20Hub%20stormscripts", -- T-Titans Battlegrounds
 
-    [16560655288] = "https://raw.githubusercontent.com/SEUNOME/StormHub/main/games/pillar_chase2.lua", -- Pillar Chase 2
+    [16560655288] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Pillar%20Chase%202%20Storm%20Hub%20stormscripts", -- Pillar Chase 2
 
-    [109629391874197] = "https://raw.githubusercontent.com/SEUNOME/StormHub/main/games/marvel_omega.lua", -- Marvel Omega
+    [109629391874197] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Marvel%20Omega%20Storm%20Hub%20stormscripts%20alphax%20project", -- Marvel Omega
 
     [15131312477] = "https://raw.githubusercontent.com/SEUNOME/StormHub/main/games/ultimate_soccer.lua", -- Ultimate Soccer
 
