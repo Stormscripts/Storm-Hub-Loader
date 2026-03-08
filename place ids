@@ -12,9 +12,9 @@ local games = {
 
     [109629391874197] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Marvel%20Omega%20Storm%20Hub%20stormscripts%20alphax%20project", -- Marvel Omega
 
-    [15131312477] = "https://raw.githubusercontent.com/SEUNOME/StormHub/main/games/ultimate_soccer.lua", -- Ultimate Soccer
+    [15131312477] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Ultimate%20Soccer%20Storm%20Hub%20stormscripts", -- Ultimate Soccer
 
-    [9224601490] = "https://raw.githubusercontent.com/SEUNOME/StormHub/main/games/fruit_battlegrounds.lua" -- Fruit Battlegrounds
+    [9224601490] = "" -- Fruit Battlegrounds
 
 }
 
