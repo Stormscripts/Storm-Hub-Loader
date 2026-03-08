@@ -1,27 +1,19 @@
-local place = game.PlaceId
+local PlaceId = game.PlaceId
 
 local games = {
-
-    [131623223084840] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Escape%20Tsunami%20For%20Brainrots%20Storm%20Hub%20stormscripts", -- Escape Tsunami For Brainrots
-
-    [142823291] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/MM2%20Storm%20Hub%20stormscripts", -- Murder Mystery 2
-
-    [3082002798] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/T-Titans%20Battlegrounds%20Storm%20Hub%20stormscripts", -- T-Titans Battlegrounds
-
-    [16560655288] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Pillar%20Chase%202%20Storm%20Hub%20stormscripts", -- Pillar Chase 2
-
-    [109629391874197] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Marvel%20Omega%20Storm%20Hub%20stormscripts%20alphax%20project", -- Marvel Omega
-
-    [15131312477] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Ultimate%20Soccer%20Storm%20Hub%20stormscripts", -- Ultimate Soccer
-
-    [9224601490] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Fruit%20Battlegrounds%20Storm%20Hub%20stormscripts" -- Fruit Battlegrounds
-
+    [131623223084840] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Escape%20Tsunami%20For%20Brainrots%20Storm%20Hub%20stormscripts",
+    [142823291]       = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/MM2%20Storm%20Hub%20stormscripts",
+    [3082002798]      = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/T-Titans%20Battlegrounds%20Storm%20Hub%20stormscripts",
+    [16560655288]     = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Pillar%20Chase%202%20Storm%20Hub%20stormscripts",
+    [109629391874197] = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Marvel%20Omega%20Storm%20Hub%20stormscripts%20alphax%20project",
+    [15131312477]     = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Ultimate%20Soccer%20Storm%20Hub%20stormscripts",
+    [9224601490]      = "https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Fruit%20Battlegrounds%20Storm%20Hub%20stormscripts",
 }
 
-local script = games[place]
+local url = games[PlaceId]
 
-if script then
-    loadstring(game:HttpGet(script))()
+if url then
+    loadstring(game:HttpGet(url))()
 else
-    game.Players.LocalPlayer:Kick("⚡ Storm Hub\n\nStorm Hub não tem script para Este Jogo.")
+    game:GetService("Players").LocalPlayer:Kick("\n⛔ Storm Hub\n\nEste jogo não é suportado.\nPlaceId: " .. tostring(PlaceId))
 end
