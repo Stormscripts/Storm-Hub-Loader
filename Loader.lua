@@ -13,7 +13,7 @@ elseif PlaceId == 16560655288 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Pillar%20Chase%202%20Storm%20Hub%20stormscripts"))()
 
 elseif PlaceId == 109629391874197 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Marvel%20Omega%20Storm%20Hub%20stormscripts%20alphax%20project"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Marvel%20Omega%20Storm%20Hub%20stormscripts"))()
 
 elseif PlaceId == 15131312477 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Ultimate%20Soccer%20Storm%20Hub%20stormscripts"))()
@@ -22,5 +22,5 @@ elseif PlaceId == 9224601490 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/main/Fruit%20Battlegrounds%20Storm%20Hub%20stormscripts"))()
 
 else
-    game:GetService("Players").LocalPlayer:Kick("\n⛔ Storm Hub\n\nEste jogo não é suportado.\nPlaceId: " .. tostring(PlaceId))
+    game:GetService("Players").LocalPlayer:Kick("\n⛔ Storm Hub\n\nEste jogo Não é Suportado.\nPlaceId: " .. tostring(PlaceId))
 end
