@@ -24,6 +24,9 @@ elseif PlaceId == 893973440 then
 elseif PlaceId == 9224601490 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Fruit%20Battlegrounds%20Storm%20Hub%20stormscripts"))()
 
+elseif PlaceId == 72167803024670 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Stormscripts/Storm-Hub-Loader/refs/heads/main/Find%20Who%20Slapped%20Storm%20Hub%20stormscripts"))()
+
 else
-    game:GetService("Players").LocalPlayer:Kick("⚠️ Storm Hub | Jogo não suportado!")
+    game:GetService("Players").LocalPlayer:Kick("⚠️ Storm Hub | Game not supported!")
 end
